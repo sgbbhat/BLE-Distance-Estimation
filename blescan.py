@@ -1,11 +1,6 @@
 
 DEBUG = False
 # BLE scanner based on https://github.com/adamf/BLE/blob/master/ble-scanner.py
-# BLE scanner, based on https://code.google.com/p/pybluez/source/browse/trunk/examples/advanced/inquiry-with-rssi.py
-
-# https://github.com/pauloborges/bluez/blob/master/tools/hcitool.c for lescan
-# https://kernel.googlesource.com/pub/scm/bluetooth/bluez/+/5.6/lib/hci.h for opcodes
-# https://github.com/pauloborges/bluez/blob/master/lib/hci.c#L2782 for functions used by lescan
 
 # performs a simple device inquiry, and returns a list of ble advertizements 
 # discovered device
